@@ -2,6 +2,14 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
+				<h1> Build-in Directive </h1>
+				<p v-text="'Some Text'"></p>
+				<p v-html="'<strong>Some strong Text</strong>'"></p>
+				<br>
+				<br>
+				<h1>Custom Directive</h1>
+				<p v-highlight:background.delay="'red'">Color Apply</p>
+				<hr>
                 <app-user></app-user>
             </div>
         </div>
